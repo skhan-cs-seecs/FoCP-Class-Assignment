@@ -1,0 +1,27 @@
+Name: Muhammad Abdullah
+CMS ID: 586264
+Course: Fundamentals of Computer Programming (FoCP)
+Assignment: 20 C++ Standard Library Built-In Functions Demonstration
+
+List of 20 Built-In Functions Used:
+----------------------------------
+1.  format              (<format>)    - Formats strings using Python-style print syntax (C++20)
+2.  midpoint            (<numeric>)   - Safely calculates the midpoint between two values without overflow
+3.  lcm                 (<numeric>)   - Calculates the least common multiple of two integers
+4.  gcd                 (<numeric>)   - Calculates the greatest common divisor of two integers
+5.  clamp               (<algorithm>) - Clamps a value between a specified minimum and maximum bound
+6.  ranges::sort        (<algorithm>) - Sorts a container directly using ranges without explicit iterators
+7.  ranges::find        (<algorithm>) - Searches for an element in a range without explicit iterators
+8.  transform_reduce    (<numeric>)   - Applies a transformation and reduces a range in parallel/sequentially
+9.  bit_cast            (<bit>)       - Safely reinterprets the bit pattern of an object as another type
+10. popcount            (<bit>)       - Counts the number of set bits (1s) in an unsigned integer
+11. byteswap            (<bit>)       - Swaps the byte order of an integer value (C++23)
+12. lerp                (<cmath>)     - Computes linear interpolation between two values
+13. make_unique         (<memory>)    - Safely creates and allocates memory for a std::unique_ptr
+14. make_shared         (<memory>)    - Safely creates and allocates memory for a std::shared_ptr
+15. structured_binding  (<utility>)   - Unpacks tuple/pair values into individual variable bindings
+16. string_view         (<string_view>)- Provides a lightweight, non-owning reference to a string
+17. contains            (<string>)    - Checks if a string contains a specific substring or character (C++23)
+18. starts_with         (<string>)    - Checks if a string begins with a specific prefix
+19. ends_with           (<string>)    - Checks if a string terminates with a specific suffix
+20. print               (<print>)     - Formatted printing directly to standard output or streams (C++23)
