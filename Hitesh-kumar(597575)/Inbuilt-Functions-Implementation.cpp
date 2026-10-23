@@ -195,9 +195,6 @@ int main()
     int otpCode = 1000 + (rand() % 9000);
     cout << "Your verification code is: " << otpCode << endl;
 
-    cout << "============================================\n";
-    cout << " Thank you for using the program!\n";
-    cout << "============================================\n";
 
     // 20. exit(): Terminates the program immediately with a status code (0 means success).
     exit(0);
