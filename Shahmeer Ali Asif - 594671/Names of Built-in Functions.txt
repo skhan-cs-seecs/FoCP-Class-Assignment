@@ -1,0 +1,20 @@
+sort arranges elements in ascending order.
+reverse reverses the order of elements.
+find locates the first matching element.
+count counts how many times a value appears.
+max_element which finds the largest element in a range. 
+min_element which finds the smallest element in a range.
+swap exchanges two values.
+abs gives the absolute value.
+fill, which sets every element in a range to one value.
+replace, which changes every occurrence of one value into another.
+ceil rounds up.
+count_if, which counts the elements that satisfy a condition.
+any_of, which checks whether at least one element satisfies a condition. 
+to_string converts a number to a string.
+stoi converts a string to an int.
+strlen gives the length of a C-style string.
+substr extracts part of a string.
+isalpha, which checks whether a character is a letter.
+isdigit checks whether a character is 0-9.
+binary_search checks whether a value exists in a sorted range
