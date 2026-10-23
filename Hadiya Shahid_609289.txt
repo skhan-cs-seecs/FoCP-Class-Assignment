@@ -1,0 +1,27 @@
+Name: Hadiya Shahid
+CMS ID: 609289
+Course: Fundamentals of Computer Programming (FoCP)
+Assignment 02: Listing 20 Built in C++ functions
+
+List of 20 Built-In Functions:
+----------------------------------
+1.  isdigit             (<cctype>)    - Checks if a character is a numeric decimal digit ('0' through '9'). Returns a non-zero value if true, 0 if false.
+2.  isalpha             (<cctype>)    - Checks if a character is an alphabetic letter ('a'–'z' or 'A'–'Z').
+3.  isalnum             (<cctype>)    - Checks if a character is alphanumeric (either a letter or a digit).
+4.  isspace             (<cctype>)    - Checks if a character is a whitespace character (like a space ' ', tab '\t', or newline '\n').
+5.  ispunct             (<cctype>)    - Checks if a character is a punctuation mark (e.g., !, ,, ., /).
+6.  islower             (<cctype>)    - Checks if a character is specifically a lowercase letter.
+7.  isupper             (<cctype>)    - Checks if a character is specifically an uppercase letter.
+8.  abs                 (<cmath>)     - Returns the absolute (positive) value of a number. 
+9.  ceil                (<cmath>)     - Rounds a floating-point number up to the nearest integer. 
+10. floor               (<cmath>)     - Rounds a floating-point number down to the nearest integer. 
+11. round               (<cmath>)     - Rounds a floating-point number to the nearest integer normally. 
+12. fmod                (<cmath>)     - Calculates the floating-point remainder of x / y. 
+13. hypot               (<cmath>)     - Calculates the hypotenuse of a right-angled triangle using the formula.
+14. to_string           (<string>)    - Converts a numerical value into a string.
+15. stoi                (<string>)    - Converts a string of numbers into an integer (int). 
+16. stod                (<string>)    - Converts a string of numbers into a double-precision floating-point number (double).
+17. clamp               (<algorithm>) - Clamps a value between a specified minimum and maximum range. If the value is within range, it returns the value. if it's smaller than min, it returns min. if it's larger than max, it returns max.
+18. system              (<cstdlib>)   - Passes a command string to the host environment command processor. 
+19. exit                (<cstdlib>)   - Immediately terminates the program and returns the given exit status code to the operating system.
+20. time                (<ctime>)     - Returns the current system time as the number of seconds elapsed since January 1, 1970 (Unix Timestamp). Often used to seed random numbers.
