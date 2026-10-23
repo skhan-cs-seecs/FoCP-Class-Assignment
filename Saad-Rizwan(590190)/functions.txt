@@ -1,0 +1,29 @@
+Name    : Saad Rizwan
+CMS ID  : 590190
+Course  : Fundamentals of Computer Programming (FoCP)
+
+20 Built-in Functions used in functions.cpp
+-------------------------------------------
+
+ #  Function                        Header        What it does
+--  ------------------------------  ------------  --------------------------------------------------------
+ 1  std::hypot                      <cmath>       Length of hypotenuse sqrt(x^2 + y^2) without overflow
+ 2  std::cbrt                       <cmath>       Cube root (works for negative numbers too)
+ 3  std::copysign                   <cmath>       Magnitude of x with the sign of y
+ 4  std::lcm                        <numeric>     Least common multiple of two integers
+ 5  std::iota                       <numeric>     Fills a range with increasing values
+ 6  std::accumulate                 <numeric>     Adds up all elements in a range, starting from init
+ 7  std::partial_sum                <numeric>     Running (prefix) sums of a range
+ 8  std::inner_product              <numeric>     Dot product of two ranges
+ 9  std::count                      <algorithm>   Counts how many elements equal a given value
+10  std::nth_element                <algorithm>   Places the n-th smallest element at its sorted position
+11  std::rotate                     <algorithm>   Rotates the elements of a range to the left
+12  std::stable_partition           <algorithm>   Splits a range by a condition, keeping original order
+13  std::minmax_element             <algorithm>   Finds the smallest and largest element in one pass
+14  std::stoi                       <string>      Converts a string such as "42" into an int
+15  std::to_string                  <string>      Converts a number into a string
+16  std::isalpha                    <cctype>      Checks whether a character is a letter
+17  std::setw                       <iomanip>     Sets the width of the next printed value
+18  std::time                       <ctime>       Current time in seconds since 1 January 1970
+19  std::div                        <cstdlib>     Returns quotient and remainder together in a div_t
+20  std::make_unique                <memory>      Creates a heap object owned by a unique_ptr (auto-freed)
