@@ -61,7 +61,7 @@ int main()
     cout << "8.  inner_product           = "
          << inner_product(a.begin(), a.end(), b.begin(), 0) << endl;
 
-    // ---------------- <algorithm> ----------------
+    // ----
 
     // 9. count: how many students scored exactly 90
     vector<int> marks = {72, 90, 45, 90, 61, 88, 90};
