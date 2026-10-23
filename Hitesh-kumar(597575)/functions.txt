@@ -1,1 +1,23 @@
+Name : Hitesh kumar
+CMS ID : 597575
 
+cos()
+tan()
+exp()
+log10()
+cbrt()
+hypot()
+trunc()
+tolower()
+isalpha()
+isdigit()
+isspace()
+rand()
+srand()
+atoi()
+exit()
+find()
+count()
+unique()
+accumulate()
+next_permutation()
