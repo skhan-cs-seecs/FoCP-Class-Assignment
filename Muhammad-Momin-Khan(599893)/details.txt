@@ -1,0 +1,27 @@
+Name: Muhammad Momin Khan
+CMS ID: 599893
+Course: Fundamentals of Computer Programming (FoCP)
+Assignment: C++ Standard Library Built-In Functions Demonstration
+
+List of 20 Built-In Functions Used:
+----------------------------------
+1.  pow                 (<cmath>)     - Calculates a number raised to a power
+2.  sqrt                (<cmath>)     - Calculates the square root of a number
+3.  ceil                (<cmath>)     - Rounds a decimal number up
+4.  floor               (<cmath>)     - Rounds a decimal number down
+5.  abs                 (<cmath>)     - Finds the absolute (positive) value of a number
+6.  gcd                 (<numeric>)   - Finds the greatest common divisor between two numbers
+7.  midpoint            (<numeric>)   - Safely calculates the midpoint between two values
+8.  adjacent_difference (<numeric>)   - Finds the difference between consecutive elements in a collection
+9.  sort                (<algorithm>) - Rearranges elements in ascending order
+10. reverse             (<algorithm>) - Flips the order of elements in a vector/array
+11. binary_search       (<algorithm>) - Efficiently checks if an item exists in a sorted list
+12. replace             (<algorithm>) - Swaps out matching values in a container with a new value
+13. find                (<algorithm>) - Locates the first match for a value in a collection
+14. stod                (<string>)    - Converts text numbers like "3.14" into actual double values
+15. tolower             (<cctype>)    - Converts uppercase letters to lowercase
+16. toupper             (<cctype>)    - Converts lowercase letters to uppercase
+17. isdigit             (<cctype>)    - Checks whether a character is a digit (0-9)
+18. setprecision        (<iomanip>)   - Controls how many decimal places print out
+19. srand               (<cstdlib>)   - Seeds the random number generator so numbers change on run
+20. rand                (<cstdlib>)   - Generates a random integer
