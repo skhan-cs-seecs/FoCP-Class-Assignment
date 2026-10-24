@@ -1,0 +1,25 @@
+Name   : Jaweria Salman
+CMS ID : 589359
+
+20 built-in functions used in functions_demo.cpp
+
+ 1) ceil(x)       - rounds up to the next higher integer           <cmath>
+ 2) floor(x)      - rounds down to the next lower integer          <cmath>
+ 3) isalpha(c)    - tells if a character is a letter               <cctype>
+ 4) isdigit(c)    - tells if a character is a digit                <cctype>
+ 5) isspace(c)    - tells if a character is a space                <cctype>
+ 6) rand()        - generates a random number                      <cstdlib>
+ 7) ofstream      - opens a file and writes data to it             <fstream>
+ 8) ifstream      - opens a file and reads data from it            <fstream>
+ 9) fstream       - reads and writes the same file                 <fstream>
+10) to_string()   - converts a number to a string                  <string>
+11) sizeof(int)   - size of int in bytes (4 bytes)                 built-in operator
+12) str.empty()   - returns true if the string is empty            <string>
+13) time(nullptr) - returns the current calendar time              <ctime>
+14) swap(a, b)    - swaps the values of a and b                    <utility>
+15) sin()         - sine (trigonometric ratio)                     <cmath>
+16) cos()         - cosine (trigonometric ratio)                   <cmath>
+17) tan()         - tangent (trigonometric ratio)                  <cmath>
+18) asin()        - inverse sine (inverse trig ratio)              <cmath>
+19) acos()        - inverse cosine (inverse trig ratio)            <cmath>
+20) atan()        - inverse tangent (inverse trig ratio)           <cmath>
