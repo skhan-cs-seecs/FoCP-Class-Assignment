@@ -1,1 +1,24 @@
-ande wala bargar
+#Name: Shaheer Khan
+#CMSID: 602946
+
+Function:                         Library:                  Definition:
+sort(begin, end)                  <algorithm>               sorts a range in ascending order
+reverse(begin, end)               <algorithm>               reverses the order of elements in a range
+find(begin, end, value)           <algorithm>               returns an iterator to the first matching element
+count(begin, end, value)          <algorithm>               counts how many elements equal a value
+find_if(begin, end, pred)         <algorithm>               returns an iterator to the first element satisfying a condition
+count_if(begin, end, pred)        <algorithm>               counts elements that satisfy a condition
+max_element(begin, end)           <algorithm>               returns an iterator to the largest element in a range
+min_element(begin, end)           <algorithm>               returns an iterator to the smallest element in a range
+accumulate(begin, end, init)      <numeric>                 adds up all elements in a range, starting from init
+binary_search(begin, end, value)  <algorithm>               checks whether a value exists in a sorted range
+lower_bound(begin, end, value)    <algorithm>               returns an iterator to the first element not less than value in a sorted range
+unique(begin, end)                <algorithm>               moves consecutive duplicates to the end and returns the new logical end
+fill(begin, end, value)           <algorithm>               assigns the same value to every element in a range
+swap(a, b)                        <algorithm> / <utility>   exchanges the values of a and b
+for_each(begin, end, func)        <algorithm>               applies a function to every element in a range
+all_of(begin, end, pred)          <algorithm>               returns true if every element satisfies the condition
+any_of(begin, end, pred)          <algorithm>               returns true if at least one element satisfies the condition
+stoi(str)                         <string>                  converts a string to an int
+to_string(x)                      <string>                  converts a number to a std::string
+iota(begin, end, start)           <numeric>                 fills a range with sequentially increasing values
