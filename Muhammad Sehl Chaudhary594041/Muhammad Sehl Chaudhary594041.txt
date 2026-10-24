@@ -1,0 +1,24 @@
+Muhammad Sehl Chaudhary
+594041
+BSCS-D
+1.isaplha(c):Checks whether a character is a letter.
+2.isalnum(c):Checks whether a character is a letter or a digit.
+3.isdigit(c):Checks whether a character is a digit.
+4.length():Returns string length.
+5.size():Returns number of characters.
+6.empty():Checks if a string is empty.
+7.swap(a,b):Exchange two values.
+8.hypot(x,y):Calculates the vale of hypoteneus.
+9.ceil(x):Rounds upward.
+10.floor(x):Rounds downward.
+11.exp(x):Raises e to the power of x.
+12.rand():Generates a random number.
+13.cbrt(x):Calculates cube root.
+14.fmod(x,y):Calculates floating point remainder.
+15.copysign(x,y):Gives x the sign of y.
+16.trunc(x):removes decimal part.
+17.fabs(x):Calculates absolute value of a floating point number.
+18.exp2(x):Calculates 2 raised to the power of x.
+19.fdim(x,y):Returns positive sum or zero.
+20.max(x,y):Returns maximum value of the given two.
+
