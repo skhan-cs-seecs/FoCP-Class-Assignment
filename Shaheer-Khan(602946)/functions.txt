@@ -15,7 +15,7 @@ binary_search(begin, end, value)  <algorithm>               checks whether a val
 lower_bound(begin, end, value)    <algorithm>               returns an iterator to the first element not less than value in a sorted range
 unique(begin, end)                <algorithm>               moves consecutive duplicates to the end and returns the new logical end
 fill(begin, end, value)           <algorithm>               assigns the same value to every element in a range
-swap(a, b)                        <algorithm> / <utility>   exchanges the values of a and b
+swap(a, b)                        <algorithm>               exchanges the values of a and b
 for_each(begin, end, func)        <algorithm>               applies a function to every element in a range
 all_of(begin, end, pred)          <algorithm>               returns true if every element satisfies the condition
 any_of(begin, end, pred)          <algorithm>               returns true if at least one element satisfies the condition
