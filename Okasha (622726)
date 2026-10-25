@@ -1,0 +1,125 @@
+/ Name: Okasha Ghani
+// CMS ID: 622726
+// Course: Fundamentals of Computer Programming
+ 
+#include <iostream>
+#include <cmath>
+#include <algorithm>
+#include <string>
+#include <cctype>
+using namespace std;
+ 
+int main()
+{
+    // pow() - power of a number
+    double side = 7.5;
+    cout << "Area of square mat: " << pow(side, 2) << endl;
+ 
+    // sqrt() - square root
+    double roomArea = 144;
+    cout << "Side of room: " << sqrt(roomArea) << endl;
+ 
+    // ceil() - rounds up
+    double students = 47;
+    cout << "Vans needed: " << ceil(students / 12) << endl;
+ 
+    // floor() - rounds down
+    double samosas = 100;
+    cout << "Full boxes of 12 samosas: " << floor(samosas / 12) << endl;
+ 
+    // round() - nearest whole number
+    double average = 72.6;
+    cout << "Rounded average: " << round(average) << endl;
+ 
+    // fmod() - remainder of decimal numbers
+    cout << "Chocolates left: " << fmod(25.0, 4.0) << endl;
+ 
+    // fabs() - absolute value
+    double predicted = 180;
+    double actual = 165.5;
+    cout << "Prediction error: " << fabs(predicted - actual) << endl;
+ 
+    // toupper() - makes a letter capital
+    char letter = 'o';
+    cout << "Capital letter: " << (char)toupper(letter) << endl;
+ 
+    // isupper() - checks capital letter
+    string headline = "Pakistan Wins The Series";
+    int capitals = 0;
+    for (int i = 0; i < headline.length(); i++)
+    {
+        if (isupper(headline[i]))
+        {
+            capitals++;
+        }
+    }
+    cout << "Capital letters: " << capitals << endl;
+ 
+    // ispunct() - checks punctuation
+    string message = "Wow!!! We won, finally!";
+    int marks = 0;
+    for (int i = 0; i < message.length(); i++)
+    {
+        if (ispunct(message[i]))
+        {
+            marks++;
+        }
+    }
+    cout << "Punctuation marks: " << marks << endl;
+ 
+    // length() - number of characters in a string
+    string username = "okasha_g";
+    cout << "Username length: " << username.length() << endl;
+ 
+    // substr() - part of a string
+    string subject = "Programming";
+    cout << "Short code: " << subject.substr(0, 3) << endl;
+ 
+    // to_string() - number to string
+    int seat = 26;
+    string seatText = "Seat number " + to_string(seat);
+    cout << seatText << endl;
+ 
+    // stoi() - string to integer
+    string billText = "850";
+    int bill = stoi(billText);
+    cout << "Bill with tax: " << bill + bill / 10 << endl;
+ 
+    // sort() - arranges in ascending order
+    int marksList[5] = {18, 25, 12, 30, 22};
+    sort(marksList, marksList + 5);
+    cout << "Sorted marks: ";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << marksList[i] << " ";
+    }
+    cout << endl;
+ 
+    // reverse() - reverses the order
+    reverse(marksList, marksList + 5);
+    cout << "Reversed marks: ";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << marksList[i] << " ";
+    }
+    cout << endl;
+ 
+    // max_element() - finds the biggest value
+    int temps[7] = {31, 34, 29, 36, 33, 35, 30};
+    cout << "Hottest day: " << *max_element(temps, temps + 7) << endl;
+ 
+    // max() - bigger of two values
+    int myMoney = 500;
+    int friendMoney = 300;
+    cout << "More money: " << max(myMoney, friendMoney) << endl;
+ 
+    // min() - smaller of two values
+    cout << "Less money: " << min(myMoney, friendMoney) << endl;
+ 
+    // swap() - exchanges two values
+    swap(myMoney, friendMoney);
+    cout << "After swap: " << myMoney << " " << friendMoney << endl;
+ 
+    return 0;
+}
+ 
