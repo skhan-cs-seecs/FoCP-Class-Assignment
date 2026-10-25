@@ -1,0 +1,23 @@
+Name : Muhammad Abdullah
+CMS ID : 600526
+
+expm1()
+log1p()
+copysign()
+fmod()
+scalbn()
+lround()
+exp2()
+nearbyint()
+fdim()
+fma()
+isxdigit()
+ispunct()
+is_sorted_until()
+partial_sum()
+adjacent_difference()
+inner_product()
+iota()
+minmax_element()
+rotate()
+nth_element()
