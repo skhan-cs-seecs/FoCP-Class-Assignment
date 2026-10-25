@@ -1,0 +1,26 @@
+
+                 HeaderFiles
+
+1. swap()          <utility>
+2. max()/ min()    <algorithm>
+3. abs()           <cmath> 
+4. sqrt()          <cmath>
+5. pow()           <cmath>
+6. to_string       <string>
+7. floor()         <cmath>
+8. toupper()/
+   tolower()       <cctype>
+
+9. isdigit()       <cctype>
+10.stoi()          <string>
+
+11.lcm()           <numeric>
+12.gcd()           <numeric>
+13.popcount()      <bit>
+14.hypot()         <cmath>
+15.cbrt()          <cmath>
+16.midpoint()      <numeric>
+17.isalpha()       <cctype> 
+18.has_single_bit  <bit>
+19.exchange()      <utility>
+20.minmax()        <algorithm>
