@@ -1,0 +1,39 @@
+Function 1: ldexp - cmath - Multiplies A Floating Point Number(First Argument) By 2 Raised To An Exponent (Second Argument)
+
+Function 2: isgraph - cctype - Checks Wether A Character Is Printable And Not A Blank Space
+
+Function 3: ilogb - cmath -  Returns the integer exponent of the floating-point number's radix representation
+
+Function 4: scalbln - cmath -  Scales a floating-point number by an integral power of the radix
+
+Function 5: tgamma - cmath -  Computes The Gamma Function
+
+Function 6: nearbyint - cmath -  Returns The Nearest Integer To The Flaoting Point Number
+
+Function 7: showbase - iomanip -  Displays numeric base prefixes where supported
+
+Function 8: internal - iomanip - Places fill characters between a numeric sign or base prefix and the number
+
+Function 9: iscntrl - cctype - Detects control characters such as newline and tab.
+
+Function 10: hexfloat - iomanip - Prints floating-point values in hexadecimal notation
+
+Function 11: showpos - iomanip - Forces a plus sign to be displayed for nonnegative signed numeric output.
+
+Function 12: strtoul - cstdlib - Parses an unsigned integer in a chosen base.
+
+Function 13: stold - string -  Converts a string to a long double
+
+Function 14: abs - cmath -  Calculates absolute value of a function
+
+Function 15: to_string - string -  Converts a numeric value into a string
+
+Function 16: put_money - iomanip -  Formats a monetary value according to the active locale
+
+Function 17: erfc - cmath - Computes Complementary Error Function
+
+Function 18: erf - cmath - Computes Gaussian Error Function
+
+Function 19: fma - cmath - Computes x * y + z with a single final rounding
+
+Function 20: signbit - cmath - Detects a negative sign, including on negative zero and NaN.
