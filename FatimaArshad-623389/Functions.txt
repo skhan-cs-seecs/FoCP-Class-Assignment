@@ -1,0 +1,30 @@
+FOCP Assignment : 20 built-in functions
+Name            : Fatima Arshad
+CMS ID          : 623389
+Class           : BSCS-16-D
+
+20 Built-in Functions in C++
+
+Mathematical Functions:
+1. gcd(a,b) <numeric>        : computes the greatest common divisor of a and b
+2. lcm(a,b) <numeric>        : computes the least common multiple of a and b
+3. cbrt(a) <cmath>           : computes the cube root of a
+4. ceil(a) <cmath>           : computes the smallest integer greater than or equal to a
+5. floor(a) <cmath>          : computes the largest integer less than or equal to a
+6. trunc(a) <cmath>          : computes the integer part of a
+7. hypot(a,b) <cmath>        : computes the length of the hypotenuse of a right triangle with sides a and b
+8. modf(a, &intpart) <cmath> : splits a into integer and fractional parts
+9. fmod(a,b) <cmath>         : computes the floating-point remainder of a divided by b
+10. isinf(a) <cmath>         : checks if a is infinite
+11. isnan(a) <cmath>         : checks if a is not a number
+12. isfinite(a) <cmath>      : checks if a is finite
+13. sin(a) <cmath>           : computes the sine of a
+14. cos(a) <cmath>           : computes the cosine of a
+15. tan(a) <cmath>           : computes the tangent of a
+
+String Functions:
+16. empty() <string>          : checks if a string is empty
+17. substr(pos, len) <string> : returns a substring of a string starting at position pos and of length len
+18. push_back(c) <string>     : adds a character c to the end of a string
+19. pop_back() <string>       : removes the last character from a string
+20. find(str) <string>        : finds the first occurrence of a substring str in a string
