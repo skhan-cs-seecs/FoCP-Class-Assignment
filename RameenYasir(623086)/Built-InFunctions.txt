@@ -1,0 +1,30 @@
+Name   : Rameen Yasir
+CMS ID : 623086
+Class  : BSCS(D)
+FoCP Class Assignment - List of 20 built-in functions used in C++
+
+HEADER <cmath>
+ 1) atan2(y, x)      - provides the angle (in radians) of the point (x, y).    atan2(1, 1) = 0.785398
+ 2) cosh(x)          - hyperbolic cosine of x.                                cosh(0) = 1
+ 3) log2(x)          - logarithm of x with base 2.                            log2(32) = 5
+ 4) exp2(x)          - calculates 2 raised to the power x.                    exp2(3) = 8
+ 5) copysign(x, y)   - gives the size of x with the sign of y.                copysign(5, -1) = -5
+ 6) fdim(x, y)       - positive difference of x and y (x - y, or 0).         fdim(10, 4) = 6
+ 7) fmax(x, y)       - returns the larger of two values.                      fmax(3.5, 9.2) = 9.2
+ 8) fmin(x, y)       - returns the smaller of two values.                     fmin(3.5, 9.2) = 3.5
+ 9) fma(x, y, z)     - multiplies x and y, then adds z (x * y + z).           fma(2, 3, 4) = 10
+10) remainder(x, y)  - remainder of x / y, using the nearest whole quotient.  remainder(10, 4) = 2
+11) lround(x)        - rounds x to the nearest whole number (long).           lround(7.5) = 8
+12) tgamma(x)        - gamma function, equals (x - 1)! for whole numbers.     tgamma(5) = 24
+13) signbit(x)       - checks whether x is negative.                          signbit(-3.2) = true
+14) isnan(x)         - checks whether x is "not a number".                    isnan(sqrt(-1)) = true
+
+HEADER <cctype>
+15) isxdigit(c)      - checks whether c is a hexadecimal digit (0-9, A-F).    isxdigit('F') = true
+16) iscntrl(c)       - checks whether c is a control character.               iscntrl('\n') = true
+17) isprint(c)       - checks whether c is a printable character.             isprint('A') = true
+18) isgraph(c)       - checks whether c is printable, but not a space.        isgraph(' ') = false
+19) isblank(c)       - checks whether c is a space or a tab.                  isblank('\t') = true
+
+HEADER <cstdlib>
+20) div(a, b)        - gives quotient and remainder of a / b together.        div(17, 5) = 3 and 2
