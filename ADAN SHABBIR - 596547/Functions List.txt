@@ -1,0 +1,23 @@
+Name : Adan Shabbir
+CMSID : 596547
+LIST OF 20 BUILT-IN FUNCTIONS
+1.insert():It inserts an element  or substring at a specific position/index in a string or container.
+2.erase(): It is used to delete the elements(a specific element or a range of elements) from a string or container.
+3.empty(): It checks whether a string or container is empty .
+4.pop_back():It removes the last element from a string or container.
+5.push_back():It inserts a new element at the end of string or container .
+6.ceil(): It returns the smallest integer greater than or equal to the number.
+7.floor():It returns the largest integer lesser than or equal to the number.
+8.find():It gives the position of first occurence of a specific value in a given range.
+9.at():It accesses and returns the element or character at a specific index.
+10.assign():It assigns the new values to the string or character by replacing the old ones.
+11.size():It finds the number of elements or characters in an string or container.
+12.append():It adds characters or strings at the end of the existing string.
+13.compare():It compares two strings lexographically (using their ASCII values).
+14.isalpha():It checks whether a character is an alphabet or not.
+15.isdigit():It checks whether a character is a digit (0-9) or not.
+16.log():It calculates the natural logarithm of positive number.
+17.substr():It extracts a portion of the string and returns it as a new string.
+18.replace():It is used to replace specific part of string with another string.
+19.front():It returns the first element or character of the string or container.
+20.back():It returns the last element or character of the string or container.
