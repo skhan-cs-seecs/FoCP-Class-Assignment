@@ -1,0 +1,46 @@
+Name   : Maheen Irfan
+CMS ID : 611533
+Assignment: 20 Built-in Functions Used in My Code
+==================================================
+
+<cmath>
+ 1. ceil(x)                  - rounds up to the nearest integer
+ 2. floor(x)                 - rounds down to the nearest integer
+
+<algorithm>
+ 3. std::sort(start, end)    - sorts a range in ascending order
+ 4. std::reverse(start, end) - reverses the elements in a range
+ 5. std::find(start, end, v) - finds the position of an element in a range
+
+<cctype>
+ 6. isspace(c)               - checks for whitespace
+ 7. isalpha(c)               - checks if the character is alphabetic
+
+<string>
+ 8. push_back(ch)            - appends a character to the end of a string
+ 9. std::stoi(str)           - converts a string to an integer
+
+<numeric>
+10. std::lcm(a, b)           - least common multiple
+11. std::gcd(a, b)           - greatest common divisor
+12. std::iota(start, end, v) - fills a range with sequential values
+
+<cstdlib>
+13. rand()                   - generates a pseudo-random integer
+14. exit(status)             - terminates the program immediately
+
+<utility>
+15. std::swap(a, b)          - swaps the values of two objects
+16. std::move(x)             - converts an object to an rvalue reference (move semantics)
+
+<memory>
+17. std::addressof(x)        - obtains the actual address of an object
+
+<cstring>
+18. strlen(s)                - returns the length of a C-string
+
+<string>
+19. std::stod(str)           - converts a string (text) to a number (double)
+
+Container member function
+20. front()                  - accesses the first element
