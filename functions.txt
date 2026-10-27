@@ -1,0 +1,140 @@
+20 BUILT-IN FUNCTIONS IN C++ (DEFINITIONS & EXAMPLES)
+
+========================================================================
+CATEGORY 1: MATHEMATICAL FUNCTIONS (&lt;cmath&gt;)
+========================================================================
+
+1. sqrt()
+- Header: &lt;cmath&gt;
+- Definition: Calculates the square root of a given non-negative number.
+- Syntax: double sqrt(double x)
+- Example: sqrt(64) -> Output: 8
+
+2. pow()
+- Header: &lt;cmath&gt;
+- Definition: Computes the value of a base number raised to the power of an exponent (base^exp).
+- Syntax: double pow(double base, double exp)
+- Example: pow(2, 5) -> Output: 32
+
+3. abs() / fabs()
+- Header: &lt;cmath&gt;
+- Definition: Returns the absolute (non-negative) value of an integer or floating-point number.
+- Syntax: int abs(int x) / double fabs(double x)
+- Example: abs(-42) -> Output: 42 | fabs(-9.75) -> Output: 9.75
+
+4. ceil()
+- Header: &lt;cmath&gt;
+- Definition: Rounds a floating-point number upwards to the nearest integer.
+- Syntax: double ceil(double x)
+- Example: ceil(4.2) -> Output: 5
+
+5. floor()
+- Header: &lt;cmath&gt;
+- Definition: Rounds a floating-point number downwards to the nearest integer.
+- Syntax: double floor(double x)
+- Example: floor(4.8) -> Output: 4
+
+6. round()
+- Header: &lt;cmath&gt;
+- Definition: Rounds a number to the nearest integer value (0.5 rounds away from zero).
+- Syntax: double round(double x)
+- Example: round(4.5) -> Output: 5 | round(4.4) -> Output: 4
+
+
+========================================================================
+CATEGORY 2: CHARACTER FUNCTIONS (&lt;cctype&gt;)
+========================================================================
+
+7. isalpha()
+- Header: &lt;cctype&gt;
+- Definition: Checks whether a given character is an alphabet letter (A-Z or a-z).
+- Syntax: int isalpha(int ch)
+- Example: isalpha('G') -> Output: Non-zero (True)
+
+8. isdigit()
+- Header: &lt;cctype&gt;
+- Definition: Checks whether a given character is a decimal digit ('0' to '9').
+- Syntax: int isdigit(int ch)
+- Example: isdigit('7') -> Output: Non-zero (True)
+
+9. toupper()
+- Header: &lt;cctype&gt;
+- Definition: Converts a lowercase character to its uppercase equivalent.
+- Syntax: int toupper(int ch)
+- Example: toupper('b') -> Output: 'B'
+
+10. tolower()
+- Header: &lt;cctype&gt;
+- Definition: Converts an uppercase character to its lowercase equivalent.
+- Syntax: int tolower(int ch)
+- Example: tolower('M') -> Output: 'm'
+
+
+========================================================================
+CATEGORY 3: STRING FUNCTIONS (&lt;cstring&gt; & &lt;string&gt;)
+========================================================================
+
+11. strlen()
+- Header: &lt;cstring&gt;
+- Definition: Returns the total number of characters in a C-style null-terminated string.
+- Syntax: size_t strlen(const char* str)
+- Example: strlen("Hello, C++") -> Output: 10
+
+12. strcpy()
+- Header: &lt;cstring&gt;
+- Definition: Copies a source C-string into a destination character array.
+- Syntax: char* strcpy(char* dest, const char* src)
+- Example: strcpy(text, "Standard ") -> text becomes "Standard "
+
+13. strcat()
+- Header: &lt;cstring&gt;
+- Definition: Appends (concatenates) a source C-string to the end of a destination string.
+- Syntax: char* strcat(char* dest, const char* src)
+- Example: strcat(text, "Library") -> text becomes "Standard Library"
+
+14. strcmp()
+- Header: &lt;cstring&gt;
+- Definition: Compares two C-strings alphabetically. Returns 0 if equal, negative if first is smaller, positive if first is greater.
+- Syntax: int strcmp(const char* s1, const char* s2)
+- Example: strcmp("apple", "banana") -> Output: Negative value (< 0)
+
+15. substr()
+- Header: &lt;string&gt;
+- Definition: Extracts and returns a portion of a std::string starting at a given index for a specified length.
+- Syntax: string substr(size_t pos, size_t len)
+- Example: string("Programming in C++").substr(0, 11) -> Output: "Programming"
+
+
+========================================================================
+CATEGORY 4: ALGORITHM & UTILITY FUNCTIONS (&lt;algorithm&gt;)
+========================================================================
+
+16. max()
+- Header: &lt;algorithm&gt;
+- Definition: Compares two values and returns the greater one.
+- Syntax: const T& max(const T& a, const T& b)
+- Example: max(15, 28) -> Output: 28
+
+17. min()
+- Header: &lt;algorithm&gt;
+- Definition: Compares two values and returns the smaller one.
+- Syntax: const T& min(const T& a, const T& b)
+- Example: min(15, 28) -> Output: 15
+
+18. swap()
+- Header: &lt;algorithm&gt;
+- Definition: Swaps the values stored in two variables directly.
+- Syntax: void swap(T& a, T& b)
+- Example: swap(x, y) where x=100, y=200 -> Output: x=200, y=100
+
+19. sort()
+- Header: &lt;algorithm&gt;
+- Definition: Sorts elements in a range (such as an array or vector) in ascending order.
+- Syntax: void sort(iterator first, iterator last)
+- Example: sort(nums.begin(), nums.end()) -> sorts vector elements in place
+
+20. reverse()
+- Header: &lt;algorithm&gt;
+- Definition: Inverts the order of elements in a range.
+- Syntax: void reverse(iterator first, iterator last)
+- Example: reverse(nums.begin(), nums.end()) -> reverses elements in place
