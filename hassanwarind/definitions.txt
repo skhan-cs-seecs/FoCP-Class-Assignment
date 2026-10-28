@@ -1,0 +1,20 @@
+1. sqrt() - finds the square root of a number
+2. pow() - calculates a number raised to a power (base, exponent)
+3. abs() - gives the positive/absolute value of an integer
+4. ceil() - rounds a decimal number up to the next whole number
+5. floor() - rounds a decimal number down to the previous whole number
+6. round() - rounds a decimal to the nearest whole number
+7. cbrt() - finds the cube root of a number
+8. fmax() - returns the bigger number between two floats/doubles
+9. fmin() - returns the smaller number between two floats/doubles
+10. sin() - gives the sine of an angle (in radians)
+11. cos() - gives the cosine of an angle (in radians)
+12. isdigit() - checks if a character is a number from 0 to 9
+13. isalpha() - checks if a character is an alphabet letter
+14. isalnum() - checks if a character is either a letter or a number
+15. isupper() - checks if a character is an uppercase letter
+16. islower() - checks if a character is a lowercase letter
+17. toupper() - converts a lowercase character into uppercase
+18. tolower() - converts an uppercase character into lowercase
+19. strlen() - counts how many characters are in a char array / string
+20. strcmp() - compares two strings to see if they are the same or different
