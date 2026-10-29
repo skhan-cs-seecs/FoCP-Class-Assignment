@@ -1,0 +1,23 @@
+Name: Hadia Mahmood 
+CMS ID: 623288
+
+1. setprecision()
+2. fmod()
+3. fmax()
+4. fmin()
+5. exp()
+6. log()
+7. pow()
+8. sqrt()
+9. sin()
+10. cos()
+11. tan()
+12. round()
+13. strcat_s()
+14. strlen()
+15. tolower()
+16. toupper()
+17. sort()
+18. setw()
+19. find()
+20. count()
